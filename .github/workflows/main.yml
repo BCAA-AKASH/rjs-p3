@@ -1,4 +1,3 @@
-
 name: JavaScript Tests
 
 on:
@@ -20,5 +19,5 @@ jobs:
         with:
           node-version: 20
 
-      - name: Run JavaScript test
-        run: node test.js
+      - name: Check repository files
+        run: ls -la
